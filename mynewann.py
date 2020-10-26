@@ -132,7 +132,7 @@ class Dense:
                 for j in range(0,len(shape)-1):
                     z_cache[j]=np.array(z_cache[j])
                     a_cache[j]=np.array(a_cache[j])
-                
+                #
                 
                 for j in range(0,batch_size):
                     feed_sample=batch_inputs[i][j]
